@@ -5,9 +5,9 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
-class BaseViewGroup extends ViewGroup {
+class BaseViewGroup extends LinearLayout {
     private static final String TAG = "kang-BaseViewGroup";
 
     public BaseViewGroup(Context context, AttributeSet attrs, int defStyleAttr) {

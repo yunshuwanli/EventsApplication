@@ -1,9 +1,9 @@
 package com.priv.eventsapplication;
 
 import android.content.Context;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
 
 public class MyView extends BaseView {
 
@@ -11,6 +11,14 @@ public class MyView extends BaseView {
 
     public MyView(Context context) {
         super(context);
+    }
+
+    public MyView(Context context, @androidx.annotation.Nullable AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public MyView(Context context, @androidx.annotation.Nullable AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
     }
 
 
